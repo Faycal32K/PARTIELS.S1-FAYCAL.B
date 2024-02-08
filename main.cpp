@@ -14,5 +14,21 @@ int main() {
  cout << "2. Restituer un vélô électrique" << endl;
  cout << "3. Estimer le coût de la location" << endl;
  cout << "4. Quitter l'application" << endl << endl;
+ cin >> choix;
+  switch (choix) {
+      case 1:
+        std::cout << "Vous avez choisi Emprunter un vélô électrique";
+        break;
+      case 2:
+        std::cout << "Vous avez choisi Restituer un vélô électrique ";
+        break;
+      case 3:
+        std::cout << "Estimer le coût de la location";
+        break;
+      case 4:
+        std::cout << " au revoir";
+        break;
+    
+  }
  return 0;
 }
